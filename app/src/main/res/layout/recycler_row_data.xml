@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5sp"
+    android:padding="5sp"
+    app:cardBackgroundColor="#171717"
+    app:cardElevation="10sp"
+    app:cardCornerRadius="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10sp"
+            android:padding="5sp">
+
+
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:id="@+id/imgview"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ride Id : "
+                            android:textColor="#AAAAAA"
+                            android:textSize="16sp"
+                            android:id="@+id/rideID"
+                            android:layout_marginTop="16dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ID"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_marginTop="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Origin Station : "
+                            android:textColor="#AAAAAA"
+                            android:textSize="16sp"
+                            android:id="@+id/orginista"
+                            android:layout_marginTop="16dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/originstation"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_marginTop="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Station Path : "
+                            android:textColor="#AAAAAA"
+                            android:textSize="16sp"
+                            android:id="@+id/station"
+                            android:layout_marginTop="16dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/stationPath"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_marginTop="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date : "
+                            android:textColor="#AAAAAA"
+                            android:textSize="16sp"
+                            android:layout_marginTop="16dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/date"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_marginTop="16dp"/>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
